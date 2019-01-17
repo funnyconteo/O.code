@@ -1,0 +1,99 @@
+.nav {
+  height: 72px;
+  background-color: #282828;
+}
+
+.nav__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-left: 11px;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  padding: 0 18px;
+  letter-spacing: 1px;
+  transition: background-color .1s ease;
+
+  &:hover {
+    background-color: #eb3c00;
+
+  }
+}
+
+.nav__input {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/search-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    right: 8px;
+    top: 10px;
+  }
+}
+
+.nav__input-search {
+  width: 269px;
+  height: 40px;
+  border: none;
+  padding: 12px 15px;
+  margin-left: 5px;
+}
+
+.nav__input-search::-webkit-input-placeholder {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #282828;
+  opacity: 0.2;
+  text-transform: uppercase;
+
+}
+.nav__input-search:-ms-input-placeholder {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #282828;
+  opacity: 0.2;
+  text-transform: uppercase;
+}
+
+.nav__input-search::-ms-input-placeholder {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #282828;
+  opacity: 0.2;
+  text-transform: uppercase;
+}
+
+.nav__input-search::placeholder {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #282828;
+  opacity: 0.2;
+  text-transform: uppercase;
+}

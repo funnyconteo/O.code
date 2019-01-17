@@ -1,0 +1,78 @@
+.section {
+  margin-top: 50px;
+}
+
+.section__title {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  color: #282828;
+  line-height: 60px;
+  margin-left: -4px;
+  width: 771px;
+  letter-spacing: -0.5px;
+}
+
+.section__description {
+  font-family: "PTSerif", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #282828;
+  margin-top: 32px;
+  margin-left: -4px;
+}
+
+.section__list-title {
+  font-family: "PTSerif";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  color: #282828;
+  line-height: 27px;
+  margin-top: 16px;
+  margin-bottom: 10px;
+  margin-left: -4px;
+}
+
+.section__list {
+  padding-left: 16px;
+}
+
+.section__list-item {
+  font-family: "PTSerif";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #282828;
+  list-style: outside;
+}
+
+.section__news {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #eb3c00;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-top: 39px;
+}
+
+.section__news-list {
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+.section__news-description {
+  font-family: "Oswald";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 20px;
+  color: #282828;
+  margin-top: 10px;
+}
